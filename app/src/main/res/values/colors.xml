@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="black_1">#171616</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_gray">#69646B</color>
+    <color name="color_offwhite">#D5DAD5</color>
+    <color name="color_yellow_F9">#F9B300</color>
+    <color name="color_yellow_FC">#FCD034</color>
+    <color name="color_yellow_FC75">#FCCC75</color>
+    <color name="Error_700">#EF4444</color>
+    <color name="color_sky">#3DA0D8</color>
+    <color name="color_sky_opacity_nine">#173DA0D8</color>
+    <color name="color_black_10">#101010</color>
+    <color name="color_black_21">#212121</color>
+    <color name="color_black_30">#303030</color>
+    <color name="color_gray_61">#616161</color>
+    <color name="color_gray_85">#858585</color>
+    <color name="color_background">#F3F4F8</color>
+    <color name="color_red_EC">#EC5F5F</color>
+    <color name="color_red_EE">#EEEEEE</color>
+    <color name="color_gray_94">#94A3B8</color>
+    <color name="color_gray_9D">#9D9FA0</color>
+    <color name="color_offWhite_FA">#FAFBFC</color>
+    <color name="color_main">#003867</color>
+    <color name="color_baby_blue">#4DC9D1</color>
+    <color name="color_baby_blue_00">#0082CD</color>
+    <color name="color_bnfsge">#8D5EF2</color>
+    <color name="color_gray_8">#8C8C8C</color>
+
+</resources>

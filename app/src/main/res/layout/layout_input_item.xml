@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutInputName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvInputName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_30"
+            android:layout_marginTop="@dimen/dp_20"
+            android:fontFamily="@font/somar_bold"
+            android:text="@string/process_type"
+            android:textColor="@color/color_black_21"
+            android:textSize="13sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SmallSp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edInputName"
+            style="@style/edittext_background"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:layout_marginHorizontal="@dimen/dp_25"
+            android:layout_marginTop="@dimen/dp_10"
+            android:clickable="true"
+            android:drawableEnd="@drawable/ic_arrow_down"
+            android:editable="false"
+            android:focusable="false"
+            android:hint="@string/select_process_type"
+            android:inputType="text"
+            android:paddingEnd="@dimen/dp_20"
+            app:layout_constraintTop_toBottomOf="@+id/tvInputName"
+            tools:ignore="Deprecated,KeyboardInaccessibleWidget,RtlSymmetry" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvErrorInputName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_5"
+            android:fontFamily="@font/somar_regular"
+            android:text="@string/select_process_type"
+            android:textColor="@color/Error_700"
+            android:textSize="10sp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="@+id/edInputName"
+            app:layout_constraintTop_toBottomOf="@id/edInputName"
+            tools:ignore="SmallSp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutSpecifyHere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/tvErrorInputName">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvSpecifyHere"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_30"
+                android:layout_marginTop="@dimen/dp_20"
+                android:fontFamily="@font/somar_bold"
+                android:text="@string/specify_here"
+                android:textColor="@color/color_black_21"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="SmallSp" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edSpecifyHere"
+                style="@style/edittext_background"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_50"
+                android:layout_marginHorizontal="@dimen/dp_25"
+                android:layout_marginTop="@dimen/dp_10"
+                android:hint="@string/specify_here"
+                android:inputType="text"
+                android:paddingEnd="@dimen/dp_20"
+                app:layout_constraintTop_toBottomOf="@+id/tvSpecifyHere"
+                tools:ignore="Deprecated,KeyboardInaccessibleWidget,RtlSymmetry" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvErrorSpecifyHere"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_5"
+                android:fontFamily="@font/somar_regular"
+                android:text="@string/select_process_type"
+                android:textColor="@color/Error_700"
+                android:textSize="10sp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@+id/edSpecifyHere"
+                app:layout_constraintTop_toBottomOf="@id/edSpecifyHere"
+                tools:ignore="SmallSp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

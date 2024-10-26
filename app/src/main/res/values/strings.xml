@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Mazaady</string>
+
+    <string name="check_internet_connections">Check Internet Connection!</string>
+    <string name="storage_permissions_title">Storage Permissions</string>
+    <string name="storage_permissions_message">Sorry, in order to proceed, you need to allow the app to access external storage.</string>
+    <string name="location_permissions_title">Location Permissions</string>
+    <string name="location_permissions_message">Sorry, in order to proceed, you need to allow the app to access your location.</string>
+    <string name="allow">Allow</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="rotate">0</string>
+    <string name="rotate_next">180</string>
+    <string name="rotate_status">90</string>
+    <string name="do_you_need_to_close_app">Do you want to exit the application?</string>
+    <string name="close">Exit</string>
+    <string name="close_">Close</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure you want to logout?</string>
+    <string name="search">search...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_main_category">Select main category</string>
+    <string name="main_category">Main Category</string>
+    <string name="select_sub_category">Select sub category</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="process_type">Process Type</string>
+    <string name="select_process_type">Select process type</string>
+    <string name="specify_here">Specify here</string>
+    <string name="brand">Brand</string>
+    <string name="select_brand">Select brand</string>
+    <string name="select_model">Select model</string>
+    <string name="model">Model</string>
+    <string name="type">Type</string>
+    <string name="select_type">Select type</string>
+    <string name="transmission_type">Transmission Type</string>
+    <string name="select_transmission_type">Select transmission type</string>
+    <string name="fuel_type">Fuel Type</string>
+    <string name="select_fuel_type">Select fuel type</string>
+    <string name="condition">Condition</string>
+    <string name="select_condition">Select condition</string>
+    <string name="color">Color</string>
+    <string name="select_color">Select color</string>
+    <string name="odometer">Odometer</string>
+    <string name="select_odometer">Select odometer</string>
+    <string name="submit">Submit</string>
+    <string name="must_select_main_category_first">Must Select Main Category First</string>
+    <string name="home">Home</string>
+    <string name="more">More</string>
+    <string name="message">Message</string>
+    <string name="profile">Profile</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="course_of_this_week">course of this week</string>
+
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="NewBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/drawable_corner_bottomsheet_above</item>
+    </style>
+
+    <style name="CustomBottomSheetDialog" parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="bottomSheetStyle">@style/NewBottomSheetStyle</item>
+    </style>
+
+    <style name="edittext_background" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/color_black_10</item>
+        <item name="android:fontFamily">@font/somar_regular</item>
+        <item name="android:textSize">13sp</item>
+        <item name="hintTextColor">@color/color_gray_94</item>
+        <item name="android:background">@drawable/drawable_corner_edittext_main_color</item>
+        <item name="android:drawablePadding">@dimen/dp_10</item>
+        <item name="android:padding">@dimen/dp_12</item>
+    </style>
+
+    <style name="button_background" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/somar_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">@dimen/dp_7</item>
+        <item name="android:background">@drawable/drawable_corner_sky_color</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.NoActionBarColoredStatusBar" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">@color/color_background</item>
+    </style>
+
+    <style name="AppTheme.NoActionBarColoredSkyStatusBar" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">@color/color_sky</item>
+    </style>
+
+    <style name="CustomChipChoice" parent="@style/Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/somar_regular</item>
+        <item name="android:textSize">10sp</item>
+        <item name="chipIconTint">@color/white</item>
+    </style>
+
+    <style name="CustomWeekDayTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CustomDateTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/color_black_21</item>
+    </style>
+
+    <style name="CustomHeaderTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">@font/somar_bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="BottomNavigationViewStyle" parent="Widget.Design.BottomNavigationView">
+        <item name="itemIconTint">@null</item>
+        <item name="itemTextColor">@color/color_sky</item>
+        <item name="background">@android:color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_more"
+    app:startDestination="@id/fragmentMore">
+
+
+    <fragment
+        android:id="@+id/fragmentMore"
+        android:name="com.contacts.mazaady.home.more.FragmentMore"
+        android:label="fragment_more"
+        tools:layout="@layout/fragment_more" />
+
+</navigation>
